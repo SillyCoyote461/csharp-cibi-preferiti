@@ -16,8 +16,9 @@ Console.WriteLine("Cibo migliore: " + favoriteFoods[0]);
 Console.WriteLine("Peggiore miglior cibo: " + favoriteFoods[4]);
 
 //cibo metá classifica
-int middle = favoriteFoods.Length / 2;
 {
+int middle = favoriteFoods.Length / 2;
+
     int x = favoriteFoods.Length % 2;
     if(x != 0)
     {
